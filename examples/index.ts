@@ -1,18 +1,21 @@
-import { DocumentProcessor } from "../../src";
-import { process } from "../../src/decorator";
-import { DocumentObserver } from "../../src/observer";
-import { TomlFileProvider } from "../../src/provider";
-import { FileOutputHandler } from "../../src/output";
+import { DocumentProcessor } from "./src";
+import { process } from "./src/decorator";
+import { DocumentObserver } from "./src/observer";
+import { TomlFileProvider } from "./src/provider";
+import { FileOutputHandler } from "./src/output";
 
-class SimpleProcessor extends DocumentObserver(DocumentProcessor) {
+class WebComponentProcessor extends DocumentObserver(DocumentProcessor) {
 
     @process("segments", {mandatory : true})
     public W05(W05: string): string {
-        const id = this.field("orderId")
+        const orderId = this.field("orderId")
         return `${W05}`;
       //  ## Usage
  
  //  replace(/^        /gm, '');
+    }
+    field(arg0: string) {
+        throw new Error("Method not implemented.");
     }
 
     @process("940" )
