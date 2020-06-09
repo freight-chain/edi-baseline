@@ -1,0 +1,30 @@
+# 940 TOML
+# Freight Trust and Clearing
+# MIT License
+
+header = [
+  "940",
+  "macro['random']()['val']"
+]
+
+[[segments]]
+tag = "W05"
+elements = [
+  "N",
+  "input['sfOrderId']",
+  "input['orderId']"
+]
+
+[[segments]]
+tag = "N1"
+elements = [
+  "ST",
+  "`${input['firstName']} ${input['lastName']}`"
+]
+
+[[segments]]
+tag = "N3"
+elements = [
+  "input['addressStreet1']",
+  "input['addressStreet2']"
+]
