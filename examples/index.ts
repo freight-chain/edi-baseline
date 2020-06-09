@@ -6,23 +6,27 @@ import { FileOutputHandler } from "../../src/output";
 
 class SimpleProcessor extends DocumentObserver(DocumentProcessor) {
 
-    @process("title")
-    public title(title: string): string {
-        return `# ${title}`;
+    @process("segments", {mandatory : true})
+    public W05(W05: string): string {
+        const id = this.field("orderId")
+        return `${W05}`;
+      //  ## Usage
+ 
+ //  replace(/^        /gm, '');
     }
 
-    @process("description" )
-    public description(description: string): string {
-        return `${description}`;
+    @process("940" )
+    public 940({ , string }: {  string; }): string {
+        return `${940}`;
     }
 
-    @process("author.name")
-    public authorName(authorName: string): string {
-        const lastName = this.field<string>("author.lastName");
-        return `_Author_ is ${authorName} ${lastName}`;
+ //   @process("author.name")
+//    public authorName(authorName: string): string {
+    //    const lastName = this.field<string>("author.lastName");
+   //     return `_Author_ is ${authorName} ${lastName}`;
     }
 
-}
+// }
 
 
 //const provider = new JSONFileProvider("./examples/simple/assets/README.json")
