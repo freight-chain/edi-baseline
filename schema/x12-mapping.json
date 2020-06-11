@@ -1,0 +1,8 @@
+[
+    {"Header/FooterSegment\t":"ST01(TransactionSetIdentifierCode)","STandSEsegmentsvalue":"MappedtothelastthreecharactersoftheRootNodenamefromtheincomingXMLtransactionset.Forexample,\"855\"from\"X12_00401_855\".ForHIPAAClaimsthathaveaTSIdentifierCodeof837P,837D,or837I,\"837\"isused."},
+    {"Header/FooterSegment\t":"ST02(TransactionSetControlNumber)\t","STandSEsegmentsvalue":"ThevalueofEdiOverride.ST02(ifEdiOveride.OverrideEdiHeaderistrue,)ormappedtothevalueoftheTransactionsetcontrolnumber(ST02)"},
+    {"Header/FooterSegment\t":"ST03(Versionidentifier)\t","STandSEsegmentsvalue":"MappedtothevalueofST03fromtheincomingXMLtransactionset.Forexample,“005010X218”fora5010HIPAA820document(Payrolldeduction).ST03isvalidatedagainsttheschemathatisusedtovalidatethetransactionset.Note:ST03ismandatoryforallHIPAAversion5010transactionsexceptfor835."},
+    {"Header/FooterSegment\t":"SE01(NumberofIncludedSegments)\t","STandSEsegmentsvalue":"Settothetotalnumberofsegmentsinthetransactionset,includingtheSTandSEsegments."},
+    {"Header/FooterSegment\t":"SE02(TransactionSetControlNumber)\t","STandSEsegmentsvalue":"MappedtothevalueofST02inthetransactionset."},
+    {"Header/FooterSegment\t":"","STandSEsegmentsvalue":""}
+]
