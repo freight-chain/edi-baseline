@@ -12,26 +12,6 @@ elements. EDI standards recommendations do not result in a viewable
 file, and common industry practice produces corrupted files when
 collisions occur between data and delimiters.
 
-## Diagram
-
-┌──────────────────────────────────────────────────────────────────────────┐  
-│ ISA ─────────────────┐   ISA/IEA  Each interchange is bounded by an      │  
-│     TA1 ───────────  │            ISA/IEA segment pair.                  │  
-│     ... ───────────  │                                                   │  
-│     GS  ──────────┐  │   TA1      Transmission Acknowledgment segments,  │  
-│         ST  ───┐  │  │            if used, immediately follow the ISA.   │  
-│             ...│  │  │                                                   │  
-│         SE  ───┘  │  │   GS/GE    Each Functional Group of similar       │  
-│         ... ────  │  │            transaction sets is bounded by a       │  
-│     GE  ──────────┘  │            GS/GE segment pair.                    │  
-│     ... ───────────  │                                                   │  
-│ IEA ─────────────────┘   ST/SE    Each transaction set document starts   │  
-│ ISA ─────────────────┐            with an ST and ends with an SE.        │  
-│     ... ───────────  │                                                   │ 
-│ IEA ─────────────────┘            Each structure may repeat an arbitrary │ 
-│ ... ──────────────────            number of times in its position.       │ 
-└──────────────────────────────────────────────────────────────────────────┘ 
-
 ### Data Elements
 
 The data element is the smallest named unit of information in the
