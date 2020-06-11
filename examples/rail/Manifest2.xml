@@ -1,0 +1,76 @@
+<CBPManifestMessage Version="1.0" xmlns:xsi="http://manifest.cbp.dhs.gov/shared/model"
+xsi:noNamespaceSchemaLocation="cbpmanifest.xsd">
+<Version>1.0</Version>
+<Filing>
+<SenderId><Value>KING</Value></SenderId>
+<ReceiverId><Value>CUSTOMSTST</Value></ReceiverId>
+<MessageDateTime><Value>20140911 1100</Value></MessageDateTime>
+<MessageType><Value>01</Value></MessageType>
+<MessageControlNumber><Value>000000917</Value></ MessageControlNumber >
+<MessageReferenceNumber></ MessageReferenceNumber >
+</Filing>
+<Conveyance>
+<CarrierCode><Value>KING</Value></CarrierCode>
+<ConveyanceName><Value>TRAIN</Value></ConveyanceName>
+<ModeOfTransportation><Value>30</Value></ModeOfTransportation>
+<ConveyanceCountryCode><Value>US</Value></ConveyanceCountryCode>
+<ScheduledDepartureDate><Value>01JAN2014 0000</Value></ScheduledDepartureDate>
+<DeparturePortCode><Value>0901</Value></ DeparturePortCode >
+<BOLInfoList>
+<BOLIssuerCode><Value>KING</Value></BOLIssuerCode>
+<BOLNumber><Value>142528010081</Value></BOLNumber>
+<BOLTypeCode><Value>00</Value></BOLTypeCode>
+<BOLClassificationCode><Value>S</Value></ BOLClassificationCode>
+<Quantity>100</ Quantity>
+<QuantityUnitOfMeasureCode><Value>UNT</Value></QuantityUnitOfMeasureCode>
+<Weight><Value>100</Value></Weight>
+<WeightUnitOfMeasureCode><Value>L</Value></WeightUnitOfMeasureCode>
+<LocationInfoList>
+<LocationType><Value>U</Value></LocationType>
+<Location><Value>01535</Value></Location>
+</LocationInfoList>
+<LocationInfoList>
+<LocationType><Value>M</Value></LocationType>
+<Location><Value>01535</Value></Location>
+</LocationInfoList>
+< BOLReferenceInfoList>
+<ReferenceType><Value>ITN</Value></ReferenceType>
+<ReferenceData><Value>X20141234567890</Value></ReferenceData>
+</ BOLReferenceInfoList >
+< BOLReferenceInfoList >
+<ReferenceType><Value>IB</Value></ReferenceType>
+<ReferenceData><Value>123456789:SCAC123456789012</Value></ReferenceData>
+</ BOLReferenceInfoList >
+<PartyInfoList>
+<PartyType><Value>SH</Value></PartyType>
+<PartyName><Value>SHIPPING COMPANY</Value></PartyName>
+<PartyAddressLine1><Value>100 MAIN STREET</Value></PartyAddressLine1>
+<PartyAddressLine2><Value>SUITE 500</Value></PartyAddressLine2>
+<CityName><Value>ARLINGTON</Value></CityName>
+<StateCode><Value>VA</Value></StateCode>
+<PostalCode><Value>22315</Value></PostalCode>
+<CountryCode><Value>US</Value></CountryCode>
+</PartyInfoList>
+<PartyInfoList>
+<PartyType><Value>CN</Value></PartyType>
+<PartyName><Value>CONSIGNEE</Value></PartyName>
+<PartyAddressLine1><Value>100 MAIN STREET</Value></PartyAddressLine1>
+<PartyAddressLine2> <Value>SUITE 100</Value></PartyAddressLine2>
+<CityName><Value>TORONTO</Value></CityName>
+<StateCode><Value>ON</Value></StateCode>
+<PostalCode><Value>M4C 1B5</Value></PostalCode>
+<CountryCode><Value>CA</Value></CountryCode>
+</PartyInfoList>
+<EquipmentInfoList>
+<EquipmentTypeCode><Value>RR</Value></EquipmentTypeCode>
+<EquipmentNumber><Value>CNRU1425280181</Value></EquipmentNumber>
+<LoadedEmptyStatus><Value>L</Value></LoadedEmptyStatus>
+<CargoInfoList>
+<Quantity><Value>100</Value></Quantity>
+<CargoDescription><Value>PEN PROTECTORS</Value></CargoDescription>
+<MarksAndNumbers><Value>MN STAMPED ON SIDE</Value></MarksAndNumbers>
+</CargoInfoList>
+</EquipmentInfoList>
+</BOLInfoList>
+</Conveyance>
+</CBPManifestMessage>
