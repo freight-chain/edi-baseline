@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+run()  {
+	CMD=$1
+	echo $CMD
+	eval $CMD
+	echo "\n"
+}

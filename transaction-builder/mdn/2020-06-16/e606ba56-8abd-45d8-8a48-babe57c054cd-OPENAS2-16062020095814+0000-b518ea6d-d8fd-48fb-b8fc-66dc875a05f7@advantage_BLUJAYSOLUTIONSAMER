@@ -1,0 +1,27 @@
+Headers:
+Date: Tue, 16 Jun 2020 09:58:14 GMT
+From: support@blujaysolutions.com
+Message-Id: <1592301494980.42343056@i1QPnY19bDzSIZ1dqhDg5rQXVg==>
+MIME-Version: 1.0
+Content-Type: multipart/signed;  boundary="----=_Part_929142_1923441550.1592301494980";  protocol="application/pkcs7-signature"; micalg=sha-256
+AS2-To: advantage
+AS2-From: BLUJAYSOLUTIONSAMER
+EDIINT-Features: CEM, multiple-attachments, AS2-Reliability
+AS2-Version: 1.2
+Connection: close
+Content-Length: 3344
+
+Attributes:
+FINAL_RECIPIENT: rfc822; BLUJAYSOLUTIONSAMER
+MIC: wAYDHGo/Iuq9wwRjeJA+Abg/MtCFt2ecpMlEzaMxn0I=, sha-256
+REPORTING_UA: null
+ORIGINAL_MESSAGE_ID: <OPENAS2-16062020095814+0000-b518ea6d-d8fd-48fb-b8fc-66dc875a05f7@advantage_BLUJAYSOLUTIONSAMER>
+ORIGINAL_RECIPIENT: rfc822; BLUJAYSOLUTIONSAMER
+DISPOSITION: automatic-action/MDN-sent-automatically; processed
+Text:
+This MDN (Message Disposition Notification) was automatically built on
+Tue, 16 Jun 2020 09:58:14 GMT in response to a message with id 
+<OPENAS2-16062020095814+0000-b518ea6d-d8fd-48fb-b8fc-66dc875a05f7@advantage_BLUJAYSOLUTIONSAMER> received from
+BLUJAYSOLUTIONSAMER on Tue, 16 Jun 2020 09:58:14 GMT.
+Unless stated otherwise, the message to which this MDN applies
+was successfully processed.

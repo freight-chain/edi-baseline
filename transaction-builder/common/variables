@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+DIR="$PWD"
+AWS_HOME="/home/ec2-user"
+ETHSPAM_ROOT="/home/ec2-user/ethspam/"
+VERSUS_ROOT="/home/ec2-user/versus/"

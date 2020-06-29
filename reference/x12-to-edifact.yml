@@ -1,0 +1,105 @@
+﻿-
+   ANSI X12: 810
+   EDIFACT: INVOIC
+   Process/Message: Invoice
+   Category: Finance
+-
+   ANSI X12: 820
+   EDIFACT: REMADV
+   Process/Message: Payment order/Remittance Advice (EFT)
+   Category: Finance
+-
+   ANSI X12: 824
+   EDIFACT: APERAK
+   Process/Message: Application Advice
+   Category: Control
+-
+   ANSI X12: 830
+   EDIFACT: DELFOR
+   Process/Message: Planning Schedule/Material Release
+   Category: Materials Management
+-
+   ANSI X12: 832
+   EDIFACT: PRICAT
+   Process/Message: Price Sales Catalog
+   Category: Product/Pricing
+-
+   ANSI X12: 838
+   EDIFACT: PARTIN
+   Process/Message: Trading Partner Profile
+   Category: Control
+-
+   ANSI X12: 840
+   EDIFACT: REQOTE
+   Process/Message: Request For Quotation
+   Category: Product/Pricing
+-
+   ANSI X12: 843
+   EDIFACT: QUOTES
+   Process/Message: Response To Request For Quotation
+   Category: Product/Pricing
+-
+   ANSI X12: 846
+   EDIFACT: INVRPT
+   Process/Message: Inventory Inquiry/Advice
+   Category: Inventory Management
+-
+   ANSI X12: 850
+   EDIFACT: ORDERS
+   Process/Message: Purchase Order
+   Category: Ordering
+-
+   ANSI X12: 852
+   EDIFACT: SLSRPT
+   Process/Message: Product Activity Data
+   Category: Ordering
+-
+   ANSI X12: 855
+   EDIFACT: ORDRSP
+   Process/Message: Purchase Order Acknowledgement
+   Category: Ordering
+-
+   ANSI X12: 856
+   EDIFACT: DESADV
+   Process/Message: Ship Notice/manifest (ASN)
+   Category: Materials Management
+-
+   ANSI X12: 858
+   EDIFACT: IFTMCS
+   Process/Message: Shipment Information (Bill of Lading)
+   Category: Shipping/Receiving
+-
+   ANSI X12: 859
+   EDIFACT: IFTMCS
+   Process/Message: Freight Invoice
+   Category: Finance
+-
+   ANSI X12: 860
+   EDIFACT: ORDCHG
+   Process/Message: Purchase Order Change
+   Category: Ordering
+-
+   ANSI X12: 861
+   EDIFACT: RECADV
+   Process/Message: Receiving Advice
+   Category: Shipping/Receiving
+-
+   ANSI X12: 862
+   EDIFACT: DELJIT
+   Process/Message: Shipping Schedule
+   Category: Materials Management
+-
+   ANSI X12: 863
+   EDIFACT: QALITY
+   Process/Message: Report of Test Results
+   Category: Materials Management
+-
+   ANSI X12: 865
+   EDIFACT: ORDRSP
+   Process/Message: Purchase Order Change Acknowledgement
+   Category: Ordering
+-
+   ANSI X12: 997
+   EDIFACT: CONTRL
+   Process/Message: Functional Acknowledgement
+   Category: Control
